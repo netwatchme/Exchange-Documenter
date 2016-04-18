@@ -1,6 +1,8 @@
 # Exchange-Documentor
 Microsoft Exchange Environment Documentor - 2010 and above
 
+The intial release support only Exchange 2010.
+
 The GET script must be run from a PowerShell instance that has the Exchange modules already loaded
 
 ON THE EXCHANGE SERVER:
