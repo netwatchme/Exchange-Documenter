@@ -1,0 +1,5 @@
+Create GUI Wrapper
+
+Review all GET commands for commands that need to be run on servers with specific roles
+Review all GET commands for commands that require specific inputs
+
