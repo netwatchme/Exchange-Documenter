@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Microsoft Exchange Documentor by netwatchme</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Microsoft Exchange Documentor</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/netwatchme/Exchange-Documentor">View the Project on GitHub <small>netwatchme/Exchange-Documentor</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/netwatchme/Exchange-Documentor/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/netwatchme/Exchange-Documentor/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/netwatchme/Exchange-Documentor">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>The purpose of this script is to document an existing Microsoft Exchange Environment, for the purposes of planning and sizing.</p>
+
+<p><strong><em><strong>NOTE: The initial release only supports Exchange 2010.</strong></em></strong>  </p>
+
+<p><strong>Requirements:</strong> Exchange 2010 with any Service Pack Environment and Client Workstation with Word 2013 or above.</p>
+
+<p><strong>Overview:</strong> This is a 2-part script, one part gathers the information from the Exchange Environment and the other formats in a Word Document.</p>
+
+<p><strong>ON THE ANY EXCHANGE SERVER IN THE ENVIRONMENT:</strong>
+Note:  The Exchange GET script must be run from a PowerShell instance that has the Exchange modules already loaded
+Copy the Get-All-Exchange2010.ps1 and HardwareInventory.ps1 scripts to the server in a new folder and run it from the Exchange Management Shell. Copy all of the resulting XML files # to a folder on a machine with Microsoft Office on it.</p>
+
+<p><strong>ON A CLIENT WORKSTATION WITH WORD 2010 OR ABOVE:</strong>
+Copy the XML files created by the Get-All script as well as all PS1 files to the same folder.
+Run the Create-EX-Docs.ps1 script. (This will only load some PowerShell functions into memory. It will not produce any output.)
+Run the Docs-Exch-ToFile command. (This will open a new Word document and populate it with the Exchange data.)</p>
+
+<p>If you have any questions, please email <a href="mailto:rcorradini@live.com">rcorradini@live.com</a> or DM me <a href="https://github.com/netwatch" class="user-mention">@netwatch</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/netwatchme">netwatchme</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
