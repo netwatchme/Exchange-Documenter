@@ -3,7 +3,9 @@
 # The purpose of this script is to document an existing  Microsoft Exchange Environment, for the purposes of planning and sizing.
 # NOTE: The intial release only supports Exchange 2010.
 #
-# Overview: This is a 2-part script, one part gathers the information from the Exchange Environment and the other formats in a Word Document.
+# Overview: This is a 2-part script, one part gathers the information from the Exchange Environment and the other formats the results into a Word Document.
+#
+# Requirements: Exchange 2010 with any Service Pack Environment and Client Workstation with Word 2013 or above.
 #
 # ON THE ANY EXCHANGE SERVER IN THE ENVIRONMENT:
 # Note:  The Exchange GET script must be run from a PowerShell instance that has the Exchange modules already loaded
